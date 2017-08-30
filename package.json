@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/KartheekJavvaji/spaceExploration#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "date-format": "^1.1.0",
+    "dateformat": "^2.0.0",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
     "node-fetch": "^1.7.2"
   }
 }
