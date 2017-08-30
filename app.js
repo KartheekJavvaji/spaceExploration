@@ -1,9 +1,9 @@
-let fetch       =   require('node-fetch'),
-bodyParser      =   require('body-parser'),
-methodOverRide  =   require('method-override'),
-dateFormat      =   require('dateformat'),
-express         =   require('express'),
-app             =   express();
+let fetch           =   require('node-fetch'),
+    bodyParser      =   require('body-parser'),
+    methodOverRide  =   require('method-override'),
+    dateFormat      =   require('dateformat'),
+    express         =   require('express'),
+    app             =   express();
 
 //NASA OPEN API KEY
 const API_KEY = "RioAxhYhTzbsQYi7ufl2JW69FfowN4GyRHLeOkM4";
