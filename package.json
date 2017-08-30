@@ -1,0 +1,28 @@
+{
+  "name": "spaceexploration",
+  "version": "1.0.0",
+  "description": "A page where all the NASA open date would be presented",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KartheekJavvaji/spaceExploration.git"
+  },
+  "keywords": [
+    "Nasa",
+    "Open",
+    "api",
+    "Space"
+  ],
+  "author": "kj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KartheekJavvaji/spaceExploration/issues"
+  },
+  "homepage": "https://github.com/KartheekJavvaji/spaceExploration#readme",
+  "dependencies": {
+    "node-fetch": "^1.7.2"
+  }
+}
