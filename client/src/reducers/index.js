@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import { reducerAPOD } from './reducer-apod';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  APODData: reducerAPOD
 });
 
 export default rootReducer;
