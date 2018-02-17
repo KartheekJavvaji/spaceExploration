@@ -8,6 +8,7 @@
     "concurrently": "^3.1.0"
   },
   "scripts": {
+    "build": "concurrently \"cd client && npm install\" \"cd server && npm install\"",
     "start": "concurrently \"cd client && npm run start\" \"cd server && npm run start\""
   }
 }
