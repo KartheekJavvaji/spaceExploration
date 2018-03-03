@@ -41,7 +41,7 @@ const fetchJson = (reqUrl) => {
       retryDelay: 500
     })
       .then(response => {
-        console.log('response: ', response);
+        //console.log('response: ', response);
         const {
           status,
           statusText
@@ -57,7 +57,7 @@ const fetchJson = (reqUrl) => {
         return response.json()
       })
       .then(result => {
-        console.log('Result: ', result);
+        //console.log('Result: ', result);
         const {
           code,
           statusText
