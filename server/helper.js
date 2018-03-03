@@ -15,6 +15,7 @@ const getValidDate = (dateString) => {
   if(_.isEmpty(dateString)) {
     return POSIXTime;
   }
+  
   // We get the UTC date and time, but when a Date obj is created from it, it would be treated as local timezone
   const UTC = new Date(POSIXTime);
   const givenDate = new Date(dateString);

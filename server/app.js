@@ -1,7 +1,7 @@
 const dateFormat = require('dateformat'),
   express = require('express'),
   app = express(),
-  utils = require('./utils'),
+  helper = require('./helper'),
   constants = require('./constants');
 
 //Helper methods
@@ -10,7 +10,7 @@ const {
   requestUrlGen,
   addDays,
   getValidDate
-} = utils;
+} = helper;
 
 //Constants
 const {
